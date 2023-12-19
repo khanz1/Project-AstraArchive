@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000;
 
 // middleware
 app.use(cors());
-app.use(helmet());
+// app.use(helmet());
 app.use(requestActivity);
 
 // handler
