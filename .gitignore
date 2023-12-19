@@ -1,0 +1,15 @@
+# environment variables
+.env
+.env.*
+
+# npm
+node_modules
+package-lock.json
+
+# project build
+dist
+
+# others
+.DS_Store
+.vscode
+.idea
